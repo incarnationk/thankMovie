@@ -1,0 +1,79 @@
+<!DOCTYPE html lang="ja">
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>2020 3-3 Congrats graduate!</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css">
+    <!-- update the version number as needed -->
+    <script defer src="/__/firebase/8.2.10/firebase-app.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/8.2.10/firebase-auth.js"></script>
+    <script defer src="/__/firebase/8.2.10/firebase-database.js"></script>
+    <script defer src="/__/firebase/8.2.10/firebase-firestore.js"></script>
+    <script defer src="/__/firebase/8.2.10/firebase-functions.js"></script>
+    <script defer src="/__/firebase/8.2.10/firebase-messaging.js"></script>
+    <script defer src="/__/firebase/8.2.10/firebase-storage.js"></script>
+    <script defer src="/__/firebase/8.2.10/firebase-analytics.js"></script>
+    <script defer src="/__/firebase/8.2.10/firebase-remote-config.js"></script>
+    <script defer src="/__/firebase/8.2.10/firebase-performance.js"></script>
+    <!-- 
+      initialize the SDK after all desired features are loaded, set useEmulator to false
+      to avoid connecting the SDK to running emulators.
+    -->
+    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
+
+    <style media="screen">
+      body { background: #ECEFF1 url("images/bg.jpg") ; background-size:cover;color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
+      #message { background: rgba(255,255,255,0.76); width: 80%; margin: 10% auto; padding: 1rem; text-align: center; border-radius: 3px; box-shadow: 5px 10px 20px rgba(0,0,0,0.25);}
+      #message h2 { color: #ffa100; font-weight: bold; font-size: 16px; margin: 0 0 8px; }
+      #message h1 { font-size: 22px; font-weight: 300; color: rgba(0,0,0,0.6); margin: 0 0 16px;}
+      #message p { line-height: 140%; margin: 16px 0 24px; font-size: 14px; }
+      #message iframe { width: 320px; height: 180px; border: none; }
+      #message video { width: 100%; height: auto; }
+      #message a { display: block; text-align: center; background: #039be5; text-transform: uppercase; text-decoration: none; color: white; padding: 16px; border-radius: 4px; }
+      #message, #message a { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
+      .autoplay { margin: -30px 0 50px; padding: 0; overflow: hidden; box-shadow: 5px 10px 20px rgba(0,0,0,0.25);}
+      .autoplay img { width: 100%; height: auto; }
+      .autoplay div { height: auto; margin: 0; padding: 0; overflow: hidden;}
+      #load { color: rgba(0,0,0,0.4); text-align: center; font-size: 13px; }
+    </style>
+  </head>
+  <body>
+    <div id="message">
+      <h2>Congrats graduate! </h2>
+      <h1>太田先生 ありがとうございました！</h1>
+      <video src="https://firebasestorage.googleapis.com/v0/b/thankmovie20200303.appspot.com/o/2020-3-3.mp4?alt=media&token=660d56ce-8fd9-4e61-ae65-dfa34b6220f5" poster="images/pic08.jpg" controls></video>
+      <p id="load">2021 Naguwashi Junior High School Ms.Emi's Class 3-3</p>
+    </div>
+
+    <div class="autoplay">
+      <div><img src="images/pic01.jpg"></div>
+      <div><img src="images/pic02.jpg"></div>
+      <div><img src="images/pic03.jpg"></div>
+      <div><img src="images/pic04.jpg"></div>
+      <div><img src="images/pic05.jpg"></div>
+      <div><img src="images/pic06.jpg"></div>
+      <div><img src="images/pic07.jpg"></div>
+      <div><img src="images/pic08.jpg"></div>
+    </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script type="text/javascript">
+      $('.autoplay').slick({
+        autoplay: true,
+        autoplaySpeed: 1000,
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        dots: true,
+        centerMode: true,
+        centerPadding: '20%',
+      });
+    </script>
+
+  </body>
+</html>
